@@ -1,0 +1,93 @@
+.container {
+    text-align: justify;
+    color: white;
+    font-size: 15px;
+    padding-left: 20px;
+    
+    
+  }
+
+.logoBan {
+}
+
+.header-right {
+    float: right;
+    padding-top: 10px;
+  }
+
+  .header {
+    overflow: hidden;
+    border-top: 1px;
+    border-bottom: 2px;
+    border-color: yellow;
+    border-style: solid;
+  }
+
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px; 
+    border: 1px solid;
+    border-collapse: collapse;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+.rightpad {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.leftpad {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.divide{
+    width: 40%;
+    padding: 20px;
+}
+
+label{
+    font: caption;
+}
+textarea{
+    vertical-align: top;
+}
+.btn{
+    border-radius: 5px;
+    position: relative;
+    left: 30%;
+    width: 20%;
+}
+th{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(214, 214, 214);
+    padding: 15px;
+    font-size: 15px;
+    border: 1px solid rgb(182, 182, 182);
+}
+td{
+    padding: 15px;
+    font: caption;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid rgb(214, 214, 214);
+}
+table{
+    border: 1px solid rgb(214, 214, 214);
+    border-collapse: collapse;
+}
+.hapus{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    border-top: 1px solid;
+}
+.footer{
+    float: right;
+}

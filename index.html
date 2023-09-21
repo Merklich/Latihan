@@ -4,17 +4,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Percobaan Revou</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+
 </head>
 
-<header>
-
+<header class="header">
+    <div>
+        <nav class="container">
+            <img src="https://pkk.uma.ac.id/wp-content/uploads/2023/06/revo.png" class="logoBan" width="40" height="40" alt="">
+            <div class="header-right">
+                <a class="leftpad" href="home">Home</a>
+                <a href="my profile">My Profile</a>
+                <a href="portofolio">Portofolio</a>
+                <a class="rightpad" href="message us">Message Us</a>
+            </div>
+        </nav>
+    </div>
 </header>
 
 <body>
+    <main style="flex-direction: row; display: flex;">
+        <div class="divide">
+            <h1><b>Form Belajar</b></h1>
+            <p><b>Ini adalah website latihana pertama</b></p>
+            <div style="padding-bottom: 5px;">
+                <label for="name">Nama</label>
+                <label style="padding-right: 5px; padding-left: 53px;" for=":">:</label>
+                <input style="width: 50%;" type="text" name="nama" id="">
+            </div>
+            <div style="padding-bottom: 5px;">
+                <label for="Tanggal">Tanggal Lahir</label>
+                <label style="padding-right: 5px; padding-left: 2px;" for=":">:</label>
+                <input style="width: 50%;" type="date" name="Tanggal" id="">
+            </div>
+            <div style="padding-bottom: 5px;">
+                <label for="Jenis Kelamin">Jenis Kelamin</label>
+                <label style="padding-right: 5px;" for=":">:</label>
+                <input type="radio" name="Jenis Kelamin" id="Laki-Laki">
+                <label for="Laki-Laki">Laki-Laki</label>
+                <input type="radio" name="Jenis Kelamin" id="Perempuan">
+                <label for="Perempuan">Perempuan</label>
+            </div>
+            <div style="padding-bottom: 10px;">
+                <label for="Pesan">Pesan</label>
+                <label style="padding-right: 5px; padding-left: 53px;" for=":">:</label>
+                <textarea style="width: 50%;" name="Pesan" id="Pesan" cols="30" rows="10">Pesan</textarea>
+            </div>
+            <div style="padding-bottom: 5px;">
+                <input class="btn" type="submit" name="submit" id="">
+            </div>
+        </div>
+        <div>
+            
+        </div>
+        <div class="divide" style="padding-right: 5%;">
+            <table>
+                <tr style="judul">
+                    <th>Nama</th>
+                    <th>Tanggal Lahir</th>
+                    <th>Jenis Kelamin</th>
+                    <th>Pesan</th>
+                    <th>Profile</th>
+                    <th>Delete</th>
+                </tr>
+                <tr>
+                    <td>Ade Lovelace</td>
+                    <td>December 10, 1815</td>
+                    <td>Perempuan</td>
+                    <td>Belajar Buat Website</td>
+                    <td><a href="Klik Disini">Klik Disini</a></td>
+                    <td><a class="hapus" href="Hapus"><i class="fa-solid fa-trash"></i>Hapus</a></td>
+                </tr>
+                <tr>
+                    <td>Grace Hopper</td>
+                    <td>December 9, 1906</td>
+                    <td>Perempuan</td>
+                    <td>Hello World</td>
+                    <td><a href="Klik Disini">Klik Disini</a></td>
+                    <td><a class="hapus" href="Hapus"><i class="fa-solid fa-trash"></i>Hapus</a></td>
+                </tr>
+                <tr>
+                    <td>Margaret Hamilton</td>
+                    <td>August 17, 1936</td>
+                    <td>Perempuan</td>
+                    <td>Test Dulu</td>
+                    <td><a href="Klik Disini">Klik Disini</a></td>
+                    <td><a class="hapus" href="Hapus"><i class="fa-solid fa-trash"></i>Hapus</a></td>
+                </tr>
+                <tr>
+                    <td>Joan Clarke</td>
+                    <td>June 24, 1917</td>
+                    <td>Laki-Laki</td>
+                    <td>Selalu Semangat</td>
+                    <td><a href="Klik Disini">Klik Disini</a></td>
+                    <td><a class="hapus" href="Hapus"><i class="fa-solid fa-trash"></i>Hapus</a></td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    
     
 </body>
 
 <footer>
-
+    <p class="footer">Ahmad Jaelani © September 2023 RevoU</p>
 </footer>
 </html>
